@@ -1,0 +1,57 @@
+{
+  "name": "rename-api",
+  "type": "app",
+  "defaultPage": "home",
+  "config": {
+    "config": {
+      "parameters": [],
+      "script": ""
+    },
+    "modules": [],
+    "properties": {
+      "version": "1.0.0-SNAPSHOT"
+    },
+    "environments": [],
+    "themes": [],
+    "auth": {
+      "enabled": false,
+      "mockedUserAccounts": []
+    }
+  },
+  "directories": {
+    "assets": [],
+    "components": [],
+    "pages": [],
+    "scripts": [
+      {
+        "id": "Y-chPH7O7NKpc9L04bwEX",
+        "name": "dir"
+      }
+    ],
+    "services": [],
+    "stylesheets": [
+      {
+        "id": "EePLZjvMFDcynMaCVlJcC",
+        "name": "dir"
+      }
+    ]
+  },
+  "localStylesheets": [
+    {
+      "path": "stylesheets/dir/a.css",
+      "parentDirectoryId": "EePLZjvMFDcynMaCVlJcC"
+    },
+    {
+      "path": "stylesheets/b.css"
+    }
+  ],
+  "localScripts": [
+    {
+      "path": "scripts/dir/a.js",
+      "parentDirectoryId": "Y-chPH7O7NKpc9L04bwEX"
+    },
+    {
+      "path": "scripts/b.js"
+    }
+  ]
+}
